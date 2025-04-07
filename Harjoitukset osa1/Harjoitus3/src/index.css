@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@keyframes spin {
+    0%   {transform: rotate3d(0);}
+    20%  {transform: rotate3d(1, 1, 1, 45deg);}
+    40%  {transform: rotate3d(2, -1, -1, -0.2turn);}
+    60% {transform: rotate3d(0, 1, 0.5, 3.142rad);}
+    80% {transform: rotate3d(1, -1, 0.5, 65deg);}
+    100% {transform: rotate3d(0);}
+  }
+
+.rotating_div:active {
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
