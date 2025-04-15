@@ -68,6 +68,19 @@
       "link": "",
       "genre": "dsa",
       "site_link": ""
+    },
+    {
+      "id": "fb4b",
+      "artist_name": "kona show",
+      "event_name": "konaaja",
+      "event_image": "",
+      "event_date": "nyt",
+      "starting_time": "8.00",
+      "adress": "mom's basement",
+      "city": "detroit",
+      "link": "",
+      "genre": "extratone",
+      "site_link": ""
     }
   ]
 }
